@@ -1,7 +1,7 @@
 {
   "manifest_version": 3,
-  "name": "FisheyeReviewFormatter",
-  "description": "FRF alerts when a fisheye review is completed",
+  "name": "CrucibleReviewFormatter",
+  "description": "CRF alerts when a crucible review is completed",
   "version": "1.0",
   "permissions": ["contextMenus"],
   "content_scripts": [
@@ -11,9 +11,9 @@
     }
   ],
   "icons": {
-      "16": "images/frf-16.png",
-      "32": "images/frf-32.png",
-      "48": "images/frf-48.png",
-      "128": "images/frf-128.png"
+      "16": "images/crf-16.png",
+      "32": "images/crf-32.png",
+      "48": "images/crf-48.png",
+      "128": "images/crf-128.png"
   }
 }

@@ -1,6 +1,6 @@
-# FisheyeReviewFormatter
+# CrucibleReviewFormatter
 
-FRF alerts when a fisheye review is completed (via complete button) with the review number and title.
+CRF alerts when a crucible review is completed (via complete button) with the review number and title.
 
 
      
@@ -16,10 +16,10 @@ Download latest version. Go to [manage chrome extensions](chrome://extensions/) 
 ## Examples
 
 ```bash
-CR-FRF-389 
+CR-RPO-389 
 
 [OPEN] for 24 mins  due in 23 hours
 ----------
-FRF-389 FRF-494 creates a new object for new request.
+RPO-389 RPO-494 creates a new object for new request.
 
-# Alerts CR-FRF-389: Creates a new object for new request.
+# Alerts CR-RPO-389: Creates a new object for new request.
