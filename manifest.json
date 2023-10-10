@@ -1,0 +1,19 @@
+{
+  "manifest_version": 3,
+  "name": "FisheyeReviewFormatter",
+  "description": "FRF alerts when a fisheye review is completed",
+  "version": "1.0",
+  "permissions": ["contextMenus"],
+  "content_scripts": [
+    {
+      "matches": ["*://*/cru/*"],
+      "js": ["background.js"]
+    }
+  ],
+  "icons": {
+      "16": "images/frf-16.png",
+      "32": "images/frf-32.png",
+      "48": "images/frf-48.png",
+      "128": "images/frf-128.png"
+  }
+}
